@@ -7,7 +7,7 @@ class Player {
       this.width = 70;
       this.height = 100;
       this.body = Bodies.rectangle(x, y, this.width, this.height, options);
-      this.image = loadImage("/assets/player.png");
+      this.image = loadImage("player.png");
       World.add(world, this.body);
 
     }
