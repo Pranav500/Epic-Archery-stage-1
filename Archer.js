@@ -7,7 +7,7 @@ class Archer {
       this.width = 100;
       this.height = 150;
       this.body = Bodies.rectangle(x, y, this.width, this.height, options);
-      this.image = loadImage("/assets/Archer.png");
+      this.image = loadImage("Archer.png");
       World.add(world, this.body);
 
     }
