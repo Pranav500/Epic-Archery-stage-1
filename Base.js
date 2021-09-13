@@ -6,7 +6,7 @@ class Base {
       this.width = 100;
       this.height = 100;
       this.body = Bodies.rectangle(x, y, this.width, this.height, options);
-      this.image = loadImage("/assets/base1.png");
+      this.image = loadImage("base1.png");
       World.add(world, this.body);
 
     }
